@@ -1,0 +1,65 @@
+﻿@model MusicCollection2017.Models.Recording
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+<p class="error">@ViewBag.ErrorMessage</p>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Recording</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ArtistId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArtistId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GenreId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GenreId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InCloud)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InCloud)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
