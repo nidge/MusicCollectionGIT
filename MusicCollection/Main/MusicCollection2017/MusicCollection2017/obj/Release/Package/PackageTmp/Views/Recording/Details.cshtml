@@ -1,0 +1,65 @@
+﻿@model MusicCollection2017.Models.Recording
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Recording</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Recording
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        @*<dt>
+                @Html.DisplayNameFor(model => model.ArtistId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ArtistId)
+            </dd>*@
+
+        <dt>
+            Artist
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artist.Title)
+        </dd>
+        <dt>
+            Genre
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Genre.Title)
+        </dd>
+
+        <dt>
+            In cloud?
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InCloud)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
