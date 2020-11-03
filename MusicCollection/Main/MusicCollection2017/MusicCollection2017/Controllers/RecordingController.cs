@@ -25,6 +25,7 @@ namespace MusicCollection2017.Controllers
             ViewBag.CurrentSort = sortOrder;
             ViewBag.RecordingSortParm = String.IsNullOrEmpty(sortOrder) ? "recording_desc" : "";
             ViewBag.ArtistSortParm = sortOrder == "artist_asc" ? "artist_desc" : "artist_asc";
+            ViewBag.InCloudSortParm = sortOrder == "inCloud_asc" ? "inCloud_desc" : "inCloud_asc";
 
             if (searchString != null)
             {
@@ -53,6 +54,12 @@ namespace MusicCollection2017.Controllers
                     break;
                 case "recording_desc":
                     recordings = recordings.OrderByDescending(s => s.Title);
+                    break;
+                case "inCloud_asc":
+                    recordings = recordings.OrderBy(s => s.InCloud);
+                    break;
+                case "inCloud_desc":
+                    recordings = recordings.OrderByDescending(s => s.InCloud);
                     break;
                 case "artist_asc":
                     recordings = recordings.OrderBy(s => s.Artist.Title);

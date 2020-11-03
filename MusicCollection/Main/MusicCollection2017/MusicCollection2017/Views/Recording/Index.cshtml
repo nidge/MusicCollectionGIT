@@ -32,8 +32,16 @@
             @Html.ActionLink("Artist", "Index", new { sortOrder = ViewBag.ArtistSortParm, currentFilter = ViewBag.CurrentFilter })
         </th>
 
+
         <th>Genre</th>
-        <th>In the cloud?</th>
+
+        @*<th>In the cloud?</th>*@
+
+        <th>
+            @Html.ActionLink("In the cloud?", "Index", new { sortOrder = ViewBag.InCloudSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+
+
         <th>Rating</th>
 
         <th></th>

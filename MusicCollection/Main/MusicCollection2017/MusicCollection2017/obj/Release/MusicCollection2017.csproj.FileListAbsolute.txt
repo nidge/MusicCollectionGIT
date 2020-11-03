@@ -40,3 +40,15 @@ C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollect
 C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\obj\Release\MusicCollection2017.csproj.CopyComplete
 C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\obj\Release\MusicCollection2017.dll
 C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\obj\Release\MusicCollection2017.pdb
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\csc.exe
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\System.Collections.Immutable.dll
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\System.Reflection.Metadata.dll
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\vbc.exe
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\VBCSCompiler.exe
+C:\Code\MusicCollectionGIT\MusicCollection\Main\MusicCollection2017\MusicCollection2017\bin\roslyn\VBCSCompiler.exe.config

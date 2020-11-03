@@ -6,3 +6,6 @@ https://www.asp.net/mvc/overview/getting-started/getting-started-with-ef-using-m
 
 Note that I have missed out the optional step 'Deploy to Azure'
 
+To deploy to Azure, follow these steps..
+
+Make your change, right click the MusicCollection2017 project and
